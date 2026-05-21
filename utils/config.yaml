@@ -1,0 +1,32 @@
+# FL scenario
+m: 1000 # number of the clients
+T: 500 # number of the rounds
+seed: 77 # random seed
+dir_results: debug # directory to save results
+
+# algorithm dataset model
+alg: craft # name of the algorithm
+dataset: cifar10 # name of the dataset
+model: resnet20 # name of the model architecture
+
+# data distribution
+partition: dir # iid or dir (dirichlet)
+dir_alpha: 0.1 # dirichlet alpha
+balance: 0 # balance or imbalance
+
+# server side parameters
+frac: 100 # <=1: fraction of clients per round; >1: absolute active clients per round
+server_lr: 0.1 # server-side learning rate
+
+# client side parameters
+lr: 0.01 # client-side learning rate
+lr_decay: 0.999 # learning rate decay for client optimizers, applied per round
+bs: 20 # batch size
+E: 1 # number of local epochs
+
+# Other parameters
+save_freq: 25 # evaluate and save results every save_freq rounds
+device: cuda # cuda or cpu or mps
+plot: 1 # plot or not
+results_root: null # default to ./results under the code root
+dataset_root: null # defaults to ./dataset under the code root
