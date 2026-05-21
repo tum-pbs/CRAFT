@@ -1,0 +1,24 @@
+
+-----Start training (cuda)-----
+Round:    1 | Loss:   8.077 | Accu:   0.011 | Std:   0.050 | Total time:    0.4 min
+Round:   25 | Loss:   4.168 | Accu:   0.072 | Std:   0.083 | Total time:    2.3 min
+Round:   50 | Loss:   3.450 | Accu:   0.158 | Std:   0.112 | Total time:    4.2 min
+Round:   75 | Loss:   3.086 | Accu:   0.221 | Std:   0.134 | Total time:    6.2 min
+Round:  100 | Loss:   2.865 | Accu:   0.246 | Std:   0.134 | Total time:    8.2 min
+Round:  125 | Loss:   2.677 | Accu:   0.280 | Std:   0.147 | Total time:   10.2 min
+Round:  150 | Loss:   2.516 | Accu:   0.308 | Std:   0.150 | Total time:   12.2 min
+Round:  175 | Loss:   2.387 | Accu:   0.327 | Std:   0.152 | Total time:   14.2 min
+Round:  200 | Loss:   2.272 | Accu:   0.342 | Std:   0.152 | Total time:   16.2 min
+Round:  225 | Loss:   2.178 | Accu:   0.350 | Std:   0.155 | Total time:   18.2 min
+Round:  250 | Loss:   2.111 | Accu:   0.363 | Std:   0.152 | Total time:   20.1 min
+Round:  275 | Loss:   2.021 | Accu:   0.376 | Std:   0.153 | Total time:   22.1 min
+Round:  300 | Loss:   1.973 | Accu:   0.383 | Std:   0.153 | Total time:   24.1 min
+Round:  325 | Loss:   1.908 | Accu:   0.383 | Std:   0.153 | Total time:   26.1 min
+Round:  350 | Loss:   1.867 | Accu:   0.392 | Std:   0.154 | Total time:   28.1 min
+Round:  375 | Loss:   1.847 | Accu:   0.393 | Std:   0.155 | Total time:   30.1 min
+Round:  400 | Loss:   1.759 | Accu:   0.398 | Std:   0.152 | Total time:   32.1 min
+Round:  425 | Loss:   1.713 | Accu:   0.398 | Std:   0.153 | Total time:   34.1 min
+Round:  450 | Loss:   1.670 | Accu:   0.403 | Std:   0.155 | Total time:   36.1 min
+Round:  475 | Loss:   1.644 | Accu:   0.402 | Std:   0.154 | Total time:   38.1 min
+Round:  500 | Loss:   1.572 | Accu:   0.412 | Std:   0.157 | Total time:   40.1 min
+-----End training-----
